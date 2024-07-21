@@ -1,0 +1,55 @@
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .price-range {
+    display: flex;
+  }
+  
+  .price-range input {
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 16px 0;
+  }
+  
+  .credit-barter {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: auto 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .credit-barter:hover {
+    border-color: #300384;
+  }
+  
+  .filter-btn {
+    background-color: green;
+    margin: 20px;
+    border-color: deepskyblue;
+    border-radius: 7px;
+    color: white;
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  
+  .filter-btn:hover{
+    background-color: white;
+    color: green;
+  }

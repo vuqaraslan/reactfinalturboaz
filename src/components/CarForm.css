@@ -1,0 +1,51 @@
+.car-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .car-form .form-left,
+  .car-form .form-right {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  
+  .car-form input,
+  .car-form select,
+  .car-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .car-form input:focus,
+  .car-form select:focus,
+  .car-form textarea:focus {
+    border-color: #ca1016;
+    outline: none;
+  }
+  
+  .car-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ca1016;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  

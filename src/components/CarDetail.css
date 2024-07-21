@@ -1,0 +1,138 @@
+.car-detail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .image-container {
+    max-width: 640px;
+    max-height: 480px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    height: auto;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #212c3a;
+  }
+  
+  .description {
+    background-color: #f6f7fa;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 75px 0;
+  }
+  
+  .icons {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  }
+  
+  .phone {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 12px 60px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    line-height: 30px;
+  }
+  
+  .phone:hover {
+    background-color: #349e52;
+  }
+  
+  .carInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+  }
+  
+  .car-statistics {
+    background-color: #f6f7fa;
+    display: flex;
+    gap: 60px;
+    border-radius: 6px;
+    padding: 20px;
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .right {
+    background-color: #f6f7fa;
+    border-radius: 6px;
+    padding: 10px 20px;
+    flex: 2;
+    max-width: 500px;
+  }
+  
+  .right > p {
+    margin: 5px;
+  }
+  
+  .with-credit {
+    background-color: rgb(202, 16, 22);
+    color: white;
+    padding: 13px 70px;
+    border: 0;
+    margin-bottom: 6px;
+    border-radius: 5px;
+  }
+  
+  .with-credit:hover {
+    background-color: rgb(172, 13, 19);
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    background-color: #ca1016;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 6px 13px;
+    margin: 10px;
+    font-size: 17px;
+  }
+  
+  .back-btn{
+    background-color:red;
+    color:white;
+    font-size: 2rem;
+    font-weight:bold;
+    border:2px solid yellow;
+    border-radius: 6px;
+    padding: 6px 15px;
+    margin-top: 10px;
+    cursor:pointer;
+  }
+  
+  .back-btn:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+  }
+  
+  .btn-op{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .btn-op:hover{
+    background-color: darkorange;
+    color: white;
+  }

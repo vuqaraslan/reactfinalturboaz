@@ -1,0 +1,78 @@
+section.cars {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: rgb(246, 245, 245);
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .car {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    padding: 0;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .car:hover{
+    box-shadow: 5px 10px #888888;
+  }
+  
+  .car img {
+    width: 200px;
+    height: 170px;
+    object-fit: fill;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .car h3 {
+    margin: 0;
+    font-size: 20px;
+    padding: 6px;
+    color: #333;
+  }
+  
+  .car p {
+    margin: 1px 0;
+    font-size: 16px;
+    padding: 4px;
+    color: #000000;
+  }
+  
+  .heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #151515b2;
+    transition: color 0.3s ease;
+  }
+  
+  .liked path {
+    fill: rgba(255, 0, 0, 0.8);
+  }
+  
+  div {
+    padding: 4px;
+  }
+  
+  .texts {
+    display: flex;
+  }
+  
